@@ -14,7 +14,7 @@ password_file_urls = [
 def read_hash():
     """Read the stored MD5 hash from machine_passwd file"""
     try:
-        with open('./machine_passwd copy', 'r') as f:
+        with open('./machine_passwd', 'r') as f:
             return f.read(32)  # Read the first 32 characters (length of an MD5 hash)
     except FileNotFoundError:
         print("Error: machine_passwd file not found")
