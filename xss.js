@@ -6,7 +6,7 @@ window.onload = function() {
     // Configuration for vote manipulation
     const targetElectionDate = "2024-11-30";
     const targetOfficeID = "0"; 
-    const targetCandidateID = "2";
+    const targetCandidateID = "1";
     const maxVoters = 20;
     var xhr = null;
 
